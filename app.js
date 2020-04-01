@@ -30,15 +30,15 @@ function plotInfo(id) {
             var bardata = [tracebar];
             // layout
             var layoutbar = {
-                title: "Top 10 OTU",
+                title: "Top 10",
                 yaxis:{
                     tickmode:"linear",
                 },
                 margin: {
-                    l: 100,
-                    r: 100,
-                    t: 100,
-                    b: 30
+                    left: 100,
+                    right: 100,
+                    top: 100,
+                    bottom: 30
                 }
             };           
         Plotly.newPlot("bar", bardata, layoutbar);
